@@ -11,10 +11,7 @@ img{
     margin-left: 40vh;
     margin-right: 40vh;
 }
-.button{
-    margin-left: 75vh;
-    display: ;
-}
+
 /****************modal area****************/
 .modal-idea a{
    text-decoration: none;
@@ -141,6 +138,24 @@ img{
 /***************************
     Responsive
 ****************************/
-@media only screen and (max-width:411px){
-                        
+@media only screen and (max-width: 660px){
+   .navbar{
+    width: 100%;
+   }
+   body{
+    width: 100%;
+   }
+   .company-logo{
+    display: none;
+   }
+   .footer-area{
+    max-width: 100%;
+   }
+   .Register{
+    display: block;
+    padding-bottom: 40px;
+   }
+   .flex-sm-column{
+    flex-direction: column !important;
+   }
 }    
