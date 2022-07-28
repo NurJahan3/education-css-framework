@@ -18,7 +18,7 @@ img{
 }
 
 /*************************************
-   Clients Questions Blog
+   Student Questions Blog
 *************************************/
 .question-title h1 {
      font-size: 45px;
@@ -52,54 +52,8 @@ img{
      width: 130px;
      height: 40px;
      padding: 10px;
- }         
-         
-/**********************
-     Footer
-********************/
-.footer-area{
-    width:480px ;
-    height:215px ;
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
-    align-items: center;
-    margin: auto;
-    
-}
- .footer-area img{
-     width: 380px;
-     height: 120px;
-     margin-top:80px ;
-     display: block;
-     
- }
- .social-icon{
-     text-align: center;
+ }  
 
- }
-
- .company-title{
-    text-align: center;
-    font-weight: bolder;
-    font-size: 2.5rem;
-}
-.company-logo{
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    margin-top: 10vh;
-}
-.company{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
- .company img{
-     width: 130px;
-     height: 40px;
-     padding: 10px;
- } 
- 
  /**********************
        Footer
  ********************/
@@ -145,12 +99,7 @@ img{
    body{
     width: 100%;
    }
-   .company-logo{
-    display: none;
-   }
-   .footer-area{
-    max-width: 100%;
-   }
+  
    .Register{
     display: block;
     padding-bottom: 40px;
@@ -158,4 +107,16 @@ img{
    .flex-sm-column{
     flex-direction: column !important;
    }
-}    
+
+   .company-data{
+    display: none !important; 
+   }
+   /*************footer*************/
+   .footer-area{
+    max-width: 100%;
+   }
+}
+@media only screen and (min-width: 1200px){
+       
+       }
+}
