@@ -67,7 +67,7 @@ img{
 }
 .social-area{
     margin-top: 7vh;
-    padding-left: 22vh;
+    padding-left: 15vh;
     text-align: center;
     color: rgb(192, 185, 185);
 }
@@ -108,11 +108,16 @@ img{
     flex-direction: column !important;
    }
 
-   .container{
+   .container-data{
     display: none !important; 
    }
    /*************footer*************/
    .footer-area{
     max-width: 100%;
    }
+}
+@media only screen and (max-width: 1200px){
+    .container-data{
+        display: none;
+    }
 }
