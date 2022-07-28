@@ -1,0 +1,146 @@
+/*******************banner area*********************/
+
+.banner-style{
+    padding-bottom: 20vh;
+}
+img{
+    filter: brightness(50%);
+}
+/***********************card area****************/
+.card-container{
+    margin-left: 40vh;
+    margin-right: 40vh;
+}
+.button{
+    margin-left: 75vh;
+    display: ;
+}
+/****************modal area****************/
+.modal-idea a{
+   text-decoration: none;
+}
+
+/*************************************
+   Clients Questions Blog
+*************************************/
+.question-title h1 {
+     font-size: 45px;
+     font-weight: 600;
+ }                            
+  .question-title span{
+     color: #e75f51;
+ }
+.accordion-item button{
+     font-weight: 600;
+}
+ /*********************************
+                 Company
+ *********************************/
+ .company-title{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+.company-logo{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin-top: 10vh;
+}
+.company{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ .company img{
+     width: 130px;
+     height: 40px;
+     padding: 10px;
+ }         
+         
+/**********************
+     Footer
+********************/
+.footer-area{
+    width:480px ;
+    height:215px ;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin: auto;
+    
+}
+ .footer-area img{
+     width: 380px;
+     height: 120px;
+     margin-top:80px ;
+     display: block;
+     
+ }
+ .social-icon{
+     text-align: center;
+
+ }
+
+ .company-title{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+.company-logo{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin-top: 10vh;
+}
+.company{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ .company img{
+     width: 130px;
+     height: 40px;
+     padding: 10px;
+ } 
+ 
+ /**********************
+       Footer
+ ********************/
+ footer{
+    background-color: rgb(24, 19, 19);
+    color: white;
+ }
+ .footer-area{
+    width: 480px;
+    height: 215px;
+}
+.social-area{
+    margin-top: 7vh;
+    padding-left: 22vh;
+    text-align: center;
+    color: rgb(192, 185, 185);
+}
+.footer-content li{
+    list-style-type: none;
+}
+ .social-icon{
+     text-align: center;
+ }
+
+.fab{
+     color: rgb(245, 243, 243);
+     width: 20px;
+     height: 20px;
+     border-radius: 50%;
+     padding:7px 5px 5px 5px;
+     text-decoration: none;
+     text-align: center;
+     margin-right: 5px;       
+ }
+         
+/***************************
+    Responsive
+****************************/
+@media only screen and (max-width:411px){
+                        
+}    
